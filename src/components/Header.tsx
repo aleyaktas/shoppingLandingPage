@@ -1,7 +1,7 @@
 import FeaturedProductImg from "../assets/FeaturedProduct.svg";
 import FeaturedProductBg from "../assets/FeaturedProductBg.svg";
 
-const FeaturedProduct = () => {
+const Header = () => {
   return (
     <div className="flex justify-center items-center gap-20">
       <div className="flex flex-col gap-8">
@@ -31,4 +31,4 @@ const FeaturedProduct = () => {
   );
 };
 
-export default FeaturedProduct;
+export default Header;
