@@ -7,7 +7,12 @@ interface ProductItem {
 const ProductItem = ({ name, description, image }: ProductItem) => {
   return (
     <div className="flex flex-col justify-between gap-4 border-1 border-slate-900 rounded-lg shadow-2xl">
-      <img src={require(`../assets/${image}.svg`)} className="w-full h-auto" />
+      <div className="rounded-t-lg overflow-hidden">
+        <img
+          src={require(`../assets/${image}.svg`)}
+          className="w-full h-auto"
+        />
+      </div>
       <div className="flex flex-col gap-4 pt-8 px-8">
         <span className="text-xl text-white font-medium">{name}</span>
         <p className="text-lg text-white font-normal">{description}</p>

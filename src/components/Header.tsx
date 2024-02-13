@@ -21,7 +21,7 @@ const Header = () => {
         </div>
       </div>
       <div className="relative">
-        <img src={FeaturedProductBg} className="absolute inset-0 z-0" />
+        <img src={FeaturedProductBg} className="absolute inset-0 z-10" />
         <img
           src={FeaturedProductImg}
           className="relative z-10 bottom-10 right-10"
