@@ -15,6 +15,10 @@ import { ReactComponent as AppStore } from "../assets/icons/app-store.svg";
 import { ReactComponent as Twitter } from "../assets/icons/twitter.svg";
 import { ReactComponent as Youtube } from "../assets/icons/youtube.svg";
 import { ReactComponent as World } from "../assets/icons/world.svg";
+import { ReactComponent as Check } from "../assets/icons/check.svg";
+import { ReactComponent as Menu } from "../assets/icons/menu.svg";
+import { ReactComponent as Close } from "../assets/icons/close.svg";
+import { ReactComponent as PlayCircle } from "../assets/icons/play-circle.svg";
 
 interface IconProps {
   className?: string;
@@ -52,6 +56,10 @@ const Icon: React.FC<IconProps> = ({
     Twitter,
     Youtube,
     World,
+    Check,
+    Menu,
+    Close,
+    PlayCircle,
   };
 
   const IconItem = icons[name];

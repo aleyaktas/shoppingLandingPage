@@ -26,20 +26,20 @@ const collectionItems: CollectionItemProps[] = [
 
 const CollectionSection: React.FC = () => {
   return (
-    <div className="pt-20">
-      <div className="flex flex-col gap-8 px-20">
-        <span className="text-slate-900 text-6xl font-extrabold">
+    <div className="pt-12 lg:pt-20">
+      <div className="flex flex-col items-center lg:items-start gap-8 px-4 lg:px-20">
+        <p className="text-slate-900 text-2xl lg:text-6xl font-extrabold">
           Grow your collection
-        </span>
-        <p className="text-lg text-slate-900">
+        </p>
+        <p className="text-base lg:text-lg text-center lg:text-start text-slate-900">
           Enim neque massa porta adipiscing elit. Sem libero id faucibus nibh
           amet dictum pellentesque sed. Eu non turpis risus odio sapien, fames
           sit rhoncus. Nec magna sed interdum sit purus tellus. Et volutpat
           proin neque placerat at bibendum quam tellus.
         </p>
       </div>
-      <div className="py-20 relative flex justify-between gap-20 px-20">
-        <div className="flex flex-col gap-4">
+      <div className="py-8 lg:py-20 relative flex flex-col lg:flex-row justify-between gap-20 px-4 lg:px-20">
+        <div className="hidden lg:flex lg:flex-col gap-4">
           {collectionItems.map((item, index) => (
             <CollectionItem
               key={index}
@@ -50,7 +50,11 @@ const CollectionSection: React.FC = () => {
             />
           ))}
         </div>
-        <img src={CollectionImage} className="z-10" alt="Collection" />
+        <img
+          src={CollectionImage}
+          className="z-10 max-w-full mx-auto lg:mx-0 h-auto w-2/3"
+          alt="Collection"
+        />
         <div className="absolute inset-0 flex justify-end items-end">
           <div
             className="w-full h-full"

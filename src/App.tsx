@@ -14,11 +14,11 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="bg-gradient-to-t from-amber-50 to-white">
+      <Navbar />
       <div className="relative">
-        <Navbar />
-        <div className="p-20">
+        <div className="p-4 lg:p-20">
           <Header />
-          <div className="flex justify-between gap-20 py-20 z-10">
+          <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-20 px-4 py-12 lg:py-20 z-10">
             {serviceItems.map((serviceItem) => (
               <ServiceItem
                 name={serviceItem.name}
