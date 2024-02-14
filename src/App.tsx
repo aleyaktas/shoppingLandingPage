@@ -8,6 +8,7 @@ import ProductsSection from "./components/ProductsSection";
 import JoinSection from "./components/JoinSection";
 import CommentSection from "./components/CommentSection";
 import CollectionSection from "./components/CollectionSection";
+import CollectedSection from "./components/CollectedSection";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <JoinSection />
       <CommentSection />
       <CollectionSection />
+      <CollectedSection />
     </div>
   );
 }
