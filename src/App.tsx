@@ -6,6 +6,7 @@ import HomeBg from "./assets/HomeBg.svg";
 import { serviceItems } from "./utils/serviceItems";
 import ProductsSection from "./components/ProductsSection";
 import JoinSection from "./components/JoinSection";
+import CommentSection from "./components/CommentSection";
 
 function App() {
   return (
@@ -36,9 +37,8 @@ function App() {
         </div>
       </div>
       <ProductsSection />
-      <div>
-        <JoinSection />
-      </div>
+      <JoinSection />
+      <CommentSection />
     </div>
   );
 }
