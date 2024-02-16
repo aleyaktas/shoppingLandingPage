@@ -5,7 +5,7 @@ const ServiceItem = ({ name, description, image }: ServiceItemProps) => {
     <div className="flex flex-col items-center lg:items-start justify-between gap-4 z-10">
       <img
         src={require(`../assets/icons/${image}.svg`)}
-        className="w-16 h-auto"
+        className="w-16 h-16"
         alt="Service"
       />
       <span className="text-xl text-slate-900 font-medium">{name}</span>
