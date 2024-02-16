@@ -1,28 +1,8 @@
 import React from "react";
-import CollectionImage from "../assets/images/Collection.png";
-import WavesImage from "../assets/images/Waves.png";
+import CollectionImage from "../assets/images/collection.png";
+import WavesImage from "../assets/images/waves.png";
 import CollectionItem from "./CollectionItem";
-
-interface CollectionItemProps {
-  name: string;
-  text: string;
-  rightIconName?: string;
-  isSelected?: boolean;
-}
-
-const collectionItems: CollectionItemProps[] = [
-  {
-    name: "Search",
-    text: "Bibendum tellus",
-    rightIconName: "ArrowRight",
-    isSelected: true,
-  },
-  { name: "ShieldCheck", text: "Cras eget" },
-  { name: "Rocket", text: "Dolor pharetra" },
-  { name: "Screen", text: "Amet, fringilla" },
-  { name: "Podcast", text: "Amet nibh" },
-  { name: "SettingsAlt", text: "Sed velit" },
-];
+import { collectionItems } from "../utils/collectionItems";
 
 const CollectionSection: React.FC = () => {
   return (

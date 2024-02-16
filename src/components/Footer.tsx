@@ -1,28 +1,9 @@
 import AppStore from "../assets/icons/app-store.svg";
 import PlayStore from "../assets/icons/play-store.svg";
 import Icon from "../utils/Icon";
+import { footerItemList } from "../utils/footerItems";
 
 const Footer = () => {
-  const footerItemList = [
-    ["Product", "Pricing", "Overview", "Browse", "Accessibility", "Five"],
-    [
-      "Solutions",
-      "Brainstorming",
-      "Ideation",
-      "Wireframing",
-      "Research",
-      "Design",
-    ],
-    [
-      "Support",
-      "Contact Us",
-      "Developers",
-      "Documentation",
-      "Integrations",
-      "Reports",
-    ],
-  ];
-
   return (
     <div className="bg-slate-900 px-4 lg:px-20">
       <div className="flex flex-col gap-12 lg:gap-0 lg:flex-row items-center lg:items-start justify-between py-12 border-b border-slate-200">

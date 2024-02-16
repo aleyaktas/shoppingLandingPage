@@ -3,18 +3,18 @@ export const productItems = [
     name: "Title",
     description:
       "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
-    image: "ProductOne",
+    image: "product-one",
   },
   {
     name: "Title",
     description:
       "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
-    image: "ProductTwo",
+    image: "product-two",
   },
   {
     name: "Title",
     description:
       "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
-    image: "ProductThree",
+    image: "product-three",
   },
 ];

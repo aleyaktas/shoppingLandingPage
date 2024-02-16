@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "react-multi-carousel";
 import { commentItems } from "../utils/commentItems";
 import CommentItem from "./CommentItem";
@@ -9,17 +8,17 @@ const MyCarousel = ({ className }: { className?: string }) => {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3,
-      partialVisibilityGutter: 40,
+      slidesToSlide: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,
-      partialVisibilityGutter: 30,
+      slidesToSlide: 2,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
-      partialVisibilityGutter: 20,
+      slidesToSlide: 1,
     },
   };
 

@@ -1,8 +1,4 @@
 import Carousel from "./Carousel";
-import LeftArrow from "../assets/icons/arrow-left.svg";
-import RightArrow from "../assets/icons/arrow-right.svg";
-import { commentItems } from "../utils/commentItems";
-import CommentItem from "./CommentItem";
 
 const CommentSection = () => {
   return (
@@ -11,14 +7,6 @@ const CommentSection = () => {
         <span className="text-slate-900 text-center lg:text-start text-3xl lg:text-6xl font-extrabold">
           Because they love us
         </span>
-        {/* <div className="flex gap-6">
-          <button className="border-2 border-amber-900 rounded-full p-3 shadow-dark-s">
-            <img src={LeftArrow} className="w-6 h-6" />
-          </button>
-          <button className="border-2 border-amber-900 rounded-full p-3 shadow-dark-s">
-            <img src={RightArrow} className="w-6 h-6" />
-          </button>
-        </div> */}
       </div>
       <div className="relative">
         <div className="absolute bottom-10 right-4 left-4 lg:right-20 lg:left-20 h-full bg-amber-200 z-0"></div>

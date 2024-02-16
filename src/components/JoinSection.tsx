@@ -1,4 +1,4 @@
-import JoinImg from "../assets/JoinImg.svg";
+import JoinImg from "../assets/icons/join-img.svg";
 import Icon from "../utils/Icon";
 
 const JoinSection = () => {
@@ -33,7 +33,7 @@ const JoinSection = () => {
             Sign up now
           </button>
         </div>
-        <img src={JoinImg} />
+        <img src={JoinImg} alt="Join" />
       </div>
     </div>
   );

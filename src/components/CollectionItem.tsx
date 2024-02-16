@@ -1,11 +1,5 @@
+import { CollectionItemProps } from "../interfaces/Collection.interfaces";
 import Icon from "../utils/Icon";
-
-interface CollectionItemProps {
-  name: string;
-  text: string;
-  rightIconName?: string;
-  isSelected?: boolean;
-}
 
 const CollectionItem: React.FC<CollectionItemProps> = ({
   name,

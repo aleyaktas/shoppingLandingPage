@@ -1,5 +1,5 @@
-import Map from "../assets/images/Map.png";
-import SelectedShoes from "../assets/images/SelectedShoes.png";
+import Map from "../assets/images/map.png";
+import SelectedShoes from "../assets/images/selectedShoes.png";
 
 const CollectedSection = () => {
   return (

@@ -1,16 +1,13 @@
-interface ProductItem {
-  name: string;
-  description: string;
-  image: string;
-}
+import { ProductItemProps } from "../interfaces/Product.interfaces";
 
-const ProductItem = ({ name, description, image }: ProductItem) => {
+const ProductItem = ({ name, description, image }: ProductItemProps) => {
   return (
     <div className="flex flex-col justify-between gap-4 border-1 border-slate-900 rounded-lg shadow-2xl">
       <div className="rounded-t-lg overflow-hidden">
         <img
-          src={require(`../assets/${image}.svg`)}
+          src={require(`../assets/icons/${image}.svg`)}
           className="w-full h-auto"
+          alt="Product"
         />
       </div>
       <div className="flex flex-col gap-4 pt-8 px-8">
